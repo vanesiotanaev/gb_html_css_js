@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    color: green;
+}
+
+.nav-link {
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    display: block;
+    border: 1px solid transparent;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nav-home {
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    background-color: rgb(250, 135, 183);
+    border-radius: 10px;
+    display: block;
+    border: 1px solid transparent;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nav-home:hover {
+    border: 1px solid lightseagreen;
+    color: lightseagreen;
+    background-color: white;
+
+}
+
+.title, .description, .subtitle {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.nav {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link:hover {
+    border: 1px solid lightseagreen;
+    color: lightseagreen;
+    background-color: white;
+
+}
+
+.item {
+    margin-top: 10px;
+    width: 503px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.pic {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.subtitle {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+}
+
+.item-box {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item-link {
+    padding:5px;
+    background-color: white;
+    display: block;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.title {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 70px;
+}
+
+.description {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+}
