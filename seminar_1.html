@@ -14,23 +14,12 @@
 </head>
 <body>
     <script language = 'JavaScript'>
-        
-        function decision(dec) {
-            switch (dec) {
-                case 18:
-                    alert('Вы совершеннолетний!')
-                    break;
-                case 30: 
-                    alert('Ложитесь спать!')
-                    break;
-                default:
-                    alert('Не знаем, что делать!')
-                    break;
+        function greeting(name) {
+            alert("Здравствуйте, " + name + "!" )
         }
-    }
 
-        const age = parseInt(prompt("Введите возраст", "возраст"));
-        decision(age);
+        const first_name = prompt("Как вас зовут?", "Имя");
+        greeting(first_name);
     </script>
 <div class="header">
     <div class="container">
